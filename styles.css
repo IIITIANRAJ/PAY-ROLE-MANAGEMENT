@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    font-family: poopins,sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(#1b1c1c 50% , #cbcbce 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    background-color: #e0e6e7;
+    height: fit-content;
+    padding: 20px;
+    width: 800px;
+    border-radius: 30px;
+    color: black;
+    box-shadow: 0.65rem 0.65rem 0.2rem rgba(0,0,0,0.35);
+}
+header{
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 25px;
+    width: 370px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(28, 27, 27, 0.5);
+    height: fit-content;
+}
+section {
+    margin: 20px;
+}
+span{
+    margin-bottom: 10px;
+    font-weight: 575;
+}
+input[type="number"] {
+    margin-bottom:10px ;
+    width: 230px;
+    height: 26px;
+    border-radius: 5px;
+    background-color: white ;
+    padding: 8px;
+    font-size: 17.5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color:#121615 ;
+    height: 40px;
+}
+
+button:hover {
+    background-color: #eef3f4;
+}
+.table{
+    text-align: center;
+    margin-top: 30px;
+}
+
+table {
+    border-collapse:collapse;
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 0 0 1rem rgba(28, 27, 27, 0.5);
+    border-radius: 10px;
+    background-color: #b0de1b
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* Add more styles as needed */
